@@ -1,0 +1,13 @@
+.blue{
+  color: blue;
+}
+
+.red{
+  color: red;
+}
+
+.customClass{
+  background-color: blue;
+  color: white;
+  font-size: 2rem;
+}
