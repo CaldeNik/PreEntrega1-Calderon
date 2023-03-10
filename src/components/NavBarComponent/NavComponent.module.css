@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #501c94;
+    font-size: 24px;
+    padding: 0px 20px;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    color: white;
+    font-size: 18px;
+}
+
+.navCounter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70px;
+}
+
+.navItems > a {
+    text-decoration: none;
+    color: white;
+}

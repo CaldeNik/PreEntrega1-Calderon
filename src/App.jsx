@@ -1,15 +1,12 @@
-import styles from 'App.module.css';
-import { ButtonComponent } from './components';
-
+import React, { useState, useEffect } from "react";
+// import styles from "./App.module.css";
+import { MainLayout } from "./layouts";
 function App() {
-  
-  const isBlue = true;
 
   return (
-    <div className={isBlue ? styles.blue : styles.customClass}>
-      <p>Bienvenidos a React!</p>
-      <button onClick={() => {console.log("Click")}}>Click Me</button>
-    </div>
+    <MainLayout>
+      
+    </MainLayout>
   );
 }
 
